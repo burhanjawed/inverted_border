@@ -131,14 +131,6 @@ nav ul li a {
   position: relative;
   width: 100%;
   background: red;
-  padding-top: 40%;
-  height: 0;
-}
-
-.main__hero__image {
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .bottom__div {

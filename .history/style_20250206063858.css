@@ -126,21 +126,6 @@ nav ul li a {
   opacity: 0.8;
 }
 
-/* Main SVG Image */
-.image__container {
-  position: relative;
-  width: 100%;
-  background: red;
-  padding-top: 40%;
-  height: 0;
-}
-
-.main__hero__image {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .bottom__div {
   position: relative;
   width: var(--width);
@@ -193,6 +178,10 @@ nav ul li a {
   border-radius: calc(var(--border-radius) - 1rem);
 }
 
+.about {
+  margin-top: 6rem;
+}
+
 /* carousel */
 .carousel {
   position: relative;
@@ -205,69 +194,14 @@ nav ul li a {
   position: relative;
   display: flex;
   width: 200%;
-  animation: marquee 20s linear infinite;
 }
 
 .item {
   flex: 1;
   justify-content: center;
   align-items: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.item img {
+.item png {
   width: 60%;
-}
-
-.left__carousel {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 30%;
-  height: 100%;
-  background: linear-gradient(270deg, transparent, var(--main-div-color));
-  z-index: 1;
-}
-
-.right__carousel {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 30%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, var(--main-div-color));
-  z-index: 1;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translate(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
-.about {
-  margin-top: 6rem;
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.about__container {
-  position: relative;
-  top: -5rem;
-  width: var(--width);
-  max-width: var(--max-width);
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-}
-
-.about__text {
-  grid-column: span 5;
-  padding-left: 2rem;
 }

@@ -126,21 +126,6 @@ nav ul li a {
   opacity: 0.8;
 }
 
-/* Main SVG Image */
-.image__container {
-  position: relative;
-  width: 100%;
-  background: red;
-  padding-top: 40%;
-  height: 0;
-}
-
-.main__hero__image {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .bottom__div {
   position: relative;
   width: var(--width);
@@ -265,9 +250,4 @@ nav ul li a {
   max-width: var(--max-width);
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-}
-
-.about__text {
-  grid-column: span 5;
-  padding-left: 2rem;
 }

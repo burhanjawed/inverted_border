@@ -135,12 +135,6 @@ nav ul li a {
   height: 0;
 }
 
-.main__hero__image {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .bottom__div {
   position: relative;
   width: var(--width);
