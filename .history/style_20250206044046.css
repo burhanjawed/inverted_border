@@ -181,20 +181,3 @@ nav ul li a {
 .about {
   margin-top: 6rem;
 }
-
-/* carousel */
-.carousel {
-  position: relative;
-  width: 100%;
-  margin-top: 1rem;
-  overflow: hidden;
-}
-
-.carousel__inner {
-  position: relative;
-  display: flex;
-}
-
-.item png {
-  width: 60%;
-}

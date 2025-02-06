@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'telegraf';
+  src: url(./assets/PPTelegraf-Ultralight.woff) format('woff2');
+}
+@font-face {
+  font-family: 'haffer';
+  src: url(./assets/HafferXH-TRIAL-Regular.woff) format('woff2');
+}
+
+:root {
+  --main-bg-color: #222222;
+  --main-div-color: #131313;
+  --width: 95%;
+  --max-width: 1600px;
+  --border-radius: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'telegraf';
+}

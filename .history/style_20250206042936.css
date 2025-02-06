@@ -169,32 +169,3 @@ nav ul li a {
   border-bottom-left-radius: var(--border-radius);
   border-bottom-right-radius: var(--border-radius);
 }
-
-.services {
-  padding: 1rem;
-  width: 100%;
-  text-align: center;
-  background-color: var(--main-bg-color);
-  border-radius: calc(var(--border-radius) - 1rem);
-}
-
-.about {
-  margin-top: 6rem;
-}
-
-/* carousel */
-.carousel {
-  position: relative;
-  width: 100%;
-  margin-top: 1rem;
-  overflow: hidden;
-}
-
-.carousel__inner {
-  position: relative;
-  display: flex;
-}
-
-.item png {
-  width: 60%;
-}
